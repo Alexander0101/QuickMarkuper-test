@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<div class="container">	
+		<h2>Project</h2>
+		<div class="table">
+			<div class="table-row table-head">
+				<div class="table-row__item">
+					<input class="item-checkbox" type="checkbox" id="table-head" name="table-head">
+  				<label class="item-label" for="table-head">#<i class="arrow"></i></label>
+				</div>
+				<div class="table-row__item">Client<i class="arrow"></i></div>
+				<div class="table-row__item">Status<i class="arrow"></i></div>
+			</div>
+			<div class="table-row table-project">
+				<div class="table-row__item">
+					<input class="item-checkbox" type="checkbox" id="project-1723" name="project-1723">
+  				<label class="item-label" for="project-1723">PROJECT #1723</label>
+				</div>
+				<div class="table-row__item">Stella</div>
+				<div class="table-row__item item-default">Sent<i class="arrow"></i></div>
+			</div>
+			<div class="table-row table-project">
+				<div class="table-row__item">
+					<input class="item-checkbox" type="checkbox" id="project-1720" name="project-1720">
+  				<label class="item-label" for="project-1720">PROJECT #1720</label>
+				</div>
+				<div class="table-row__item">IT corp international</div>
+				<div class="table-row__item item-default">Draft<i class="arrow"></i></div>
+			</div>
+		</div>
+		<div class="projects">
+			<div class="projects-item">
+				<img class="projects-img" src="images/figure1.png" alt="image"></img>
+				<h3 class="projects-name">Project #1</h3>
+				<p class="projects-info">
+					Lerem ipsum dolor sit amet, consectetur 
+				</p>
+			</div>
+			<div class="projects-item">
+				<img class="projects-img" src="images/figure2.png" alt="image"></img>
+				<h3 class="projects-name">Project #2</h3>
+				<p class="projects-info">
+					Lerem ipsum dolor sit amet, consectetur 
+				</p>
+			</div>
+			<div class="projects-item">
+				<img class="projects-img" src="images/figure3.png" alt="image"></img>
+				<h3 class="projects-name">Project #3</h3>
+				<p class="projects-info">
+					Lerem ipsum dolor sit amet, consectetur 
+				</p>
+			</div>
+			<div class="projects-item">
+				<img class="projects-img" src="images/figure4.png" alt="image"></img>
+				<h3 class="projects-name">Project #4</h3>
+				<p class="projects-info">
+					Lerem ipsum dolor sit amet, consectetur 
+				</p>
+			</div>
+		</div>
+		<form action="#" class="form" method="get">
+				<h3 class="form-name">Add project</h3>
+				<div class="form-row">
+					<div class="form-row__label">
+						<label for="projectName">
+							Name <span class="label-default">*</span>
+						</label>
+					</div>
+					<input type="text" name="projectName" id="projectName" placeholder="Project #1723" required>
+					<div class="form-row__label">
+						<label for="projectEmail">
+							E-mail <span class="label-default">*</span>
+						</label>
+					</div>	
+					<input type="text" name="projectClient" id="projectClient" placeholder="Project #1723" required>
+				</div>
+				<div class="form-row">
+					<div class="form-row__label">
+						<label for="projectClient">
+							Client <span class="label-default">*</span>
+						</label>
+					</div>
+					<input type="text" name="projectEmail" id="projectEmail" placeholder="project1723@gmail.com" required>
+					<div class="form-row__label">
+						<label for="projectAdmin">
+							Admin <span class="label-default">*</span>
+						</label>
+					</div>
+					<input type="text" name="projectAdmin" id="projectAdmin" placeholder="Admin">
+				</div>
+				<div class="form-btn">
+					<button class="btn cancel-btn">Cancel</button>
+					<button class="btn add-btn">Add</button>
+				</div>
+			</form>	
+	</div>	
+</body>
+</html>
